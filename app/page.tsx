@@ -21,13 +21,25 @@ export default function Home() {
 
       {/* Standard content section */}
       <main className="py-16 px-4 space-y-16 max-w-7xl mx-auto">
-        {/* Hero Section */}
-        <section className="text-center space-y-6">
-          <h1 className="text-5xl font-bold text-gray-900">Iron Fist Boxing Club</h1>
-          <p className="text-lg text-gray-600">
-            Train hard. Stay strong. Join the fight.
-          </p>
-          <Button size="lg">Get Started</Button>
+       {/* Hero Section */}
+        <section className="h-[80vh] flex flex-col md:flex-row items-center justify-between px-4 space-y-8 md:space-y-0">
+          {/* Text Block */}
+          <div className="md:w-1/2 space-y-6 text-center md:text-left">
+            <h1 className="text-5xl font-bold text-gray-900">New Energy Muay-Thai</h1>
+            <p className="text-lg text-gray-600">
+              Train hard. Stay strong. Join the fight.
+            </p>
+            <Button size="lg">Get Started</Button>
+          </div>
+
+          {/* Image Block */}
+          <div className="md:w-1/2 flex justify-center">
+            <img
+              src="/Images/logo.jpg" // Ensure this path is correct
+              alt="Boxer"
+              className="h-[60vh] w-auto rounded-xl shadow-lg object-cover"
+            />
+          </div>
         </section>
 
         {/* Feature Cards */}
