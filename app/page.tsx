@@ -14,7 +14,7 @@ export default function Home() {
     <>
       {/* Full-width carousel, independent of layout formatting */}
       <section className="w-full overflow-hidden">
-        <div className="w-full h-[50vh] relative">
+        <div className="w-full h-[60vh] relative">
           <ImageCarousel images={images} />
         </div>
       </section>
