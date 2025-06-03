@@ -1,4 +1,4 @@
-export default function TeamLayout({
+export default function TeamMemberLayout({
   children,
 }: {
   children: React.ReactNode;
